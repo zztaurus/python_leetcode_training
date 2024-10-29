@@ -40,4 +40,4 @@ def trainingPlan(head, cnt):
 
 
 if __name__ == '__main__':
-
+    pass
