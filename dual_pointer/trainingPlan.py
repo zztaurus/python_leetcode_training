@@ -54,7 +54,6 @@ def traningPlan3(actions):
     return actions
 
 
-
 if __name__ == '__main__':
     res = traningPlan3([1,2,3,4,5])
     print(res)
