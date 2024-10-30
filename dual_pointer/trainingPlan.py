@@ -11,7 +11,6 @@
 # 解释：为正确答案之一
 
 
-
 def traningPlan(actions):
     i,j = 0, 0
     while (j < len(actions)):
@@ -27,6 +26,7 @@ def traningPlan(actions):
             j += 1
 
     return actions
+
 
 def traningPlan2(actions):
     left = 0
