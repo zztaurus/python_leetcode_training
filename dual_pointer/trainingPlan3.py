@@ -17,3 +17,12 @@ def getIntersectionNode(headA, headB):
         B = B.next if B else headA
     return A
 
+
+
+def trainingPlan4(headA, headB):
+
+    a, b = headA, headB
+    while a != b:
+        a = a.next if a else headA
+        b = b.next if b else headB
+    return a
