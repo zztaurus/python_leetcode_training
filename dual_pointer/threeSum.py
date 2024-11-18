@@ -7,7 +7,7 @@ def threeSum(nums):
     """
     res = []
     nums.sort()
-    for first in (len(nums) - 1):
+    for first in (len(nums) - 2):
         if first > 0 and nums[first] == nums[first - 1]:
             continue # 这一步主要是要跳过重复元素, 避免结果中出现重复的三元组
         target =  0 - nums[first]
@@ -25,8 +25,4 @@ def threeSum(nums):
             else:
                 left += 1
     return res
-
-
-
-
 
