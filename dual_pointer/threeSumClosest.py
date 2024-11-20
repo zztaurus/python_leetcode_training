@@ -1,33 +1,47 @@
 
-
-
-def threeSumClosest(nums: object, target: object) -> object:
-    most_res = 10000
-    min_dis = 10000
+import math
+def threeSumClosest(nums, target) -> int:
     nums.sort()
-    for first in range (len(nums) - 2):
-        if first > 0 and nums[first] == nums[first - 1]:
-            continue  # 这一步主要是要跳过重复元素, 避免结果中出现重复的三元组
-        # 从此开始问题转变为 TwoSum 问题
-        left, right = first + 1, len(nums) - 1
-        while left < right:
+    n = len(nums)
+    min_diff = math.inf
+    for i in range(n - 2):
+        x = nums[i]
+        if i > 0 and x == nums[i + 1]:
+            continue  # 优化三
 
-            if nums[first] + nums[left] + nums[right] == target:
-                return 0
-            elif nums[first] + nums[left] + nums[right] > target:
-                dis = abs(nums[first] + nums[left] + nums[right] - target)
-                if dis < min_dis:
-                    min_dis = dis
-                    most_res = nums[first] + nums[left] + nums[right]
-                right -= 1
-            else:
-                dis = abs(nums[first] + nums[left] + nums[right] - target)
-                if dis < min_dis:
-                    min_dis = dis
-                    most_res = nums[first] + nums[left] + nums[right]
-                left += 1
-    return most_res
+        # # 优化一
+        # s = x + nums[i + 1] + nums[i + 2]
+        # if s > target:  # 后面无论怎么选，选出的三个数的和不会比 s 还小
+        #     if s - target < min_diff:
+        #         ans = s  # 由于下一行直接 break，这里无需更新 min_diff
+        #     break
+        #
+        # # 优化二
+        # s = x + nums[-2] + nums[-1]
+        # if s < target:  # x 加上后面任意两个数都不超过 s，所以下面的双指针就不需要跑了
+        #     if target - s < min_diff:
+        #         min_diff = target - s
+        #         ans = s
+        #     continue
+
+        # 双指针
+        j, k = i + 1, n - 1
+        while j < k:
+            s = x + nums[j] + nums[k]
+            if s == target:
+                return s
+            if s > target:
+                if s - target < min_diff:  # s 与 target 更近
+                    min_diff = s - target
+                    ans = s
+                k -= 1
+            else:  # s < target
+                if target - s < min_diff:  # s 与 target 更近
+                    min_diff = target - s
+                    ans = s
+                j += 1
+    return ans
 
 
 if __name__ == '__main__':
-    print(threeSumClosest([-1,2,1,-4], 1))
+    print(threeSumClosest([1,1,1,0], 100))
