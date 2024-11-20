@@ -28,14 +28,14 @@ def removeDuplicates(nums):
             slow = slow + 1
             nums[slow] = nums[fast]
         fast = fast + 1
+    nums = nums[0:slow+1]
     print(nums)
     return slow + 1
-
-
 
 
 if __name__ == '__main__':
     nums_1 = [1,1,2]
     nums_2 = [0,0,1,1,1,2,2,3,3,4]
     cou = removeDuplicates(nums_2)
+    print(nums_2)
     print(cou)
