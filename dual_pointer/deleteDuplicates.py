@@ -19,5 +19,3 @@ def deleteDuplicates(head):
     return head
 
 
-
-
