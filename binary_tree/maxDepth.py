@@ -14,7 +14,6 @@ def maxDepeth(root):
 
     if root is None:
         return 0
-
     queue, depth = [root], 1
     while queue:
 
