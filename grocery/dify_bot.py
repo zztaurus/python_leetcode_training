@@ -17,7 +17,7 @@ def my_python_tool():
     })
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer app-5ad5xWrowd8OU4hSZdXxlOlh'
+        # 'Authorization': 'Bearer app-5ad5xWrowd8OU4hSZdXxlOlh'
     }
 
     response = requests.request("POST", url, headers=headers, data=payload)
