@@ -15,12 +15,15 @@ def maxDepeth(root):
     if root is None:
         return 0
 
-    queue, depth = [root], 1
+    queue, depth = [root], 0
     while queue:
 
         for node in queue:
             queue.append(node.left)
             queue.append(node.right)
+            queue.remove(node)
         depth += 1
 
     return depth
+
+
