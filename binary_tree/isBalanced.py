@@ -60,8 +60,8 @@ def height2(root):
     if root is None:
         return 0
 
-    left_height = height(root.left)
-    right_height = height(root.right)
+    left_height = height2(root.left)
+    right_height = height2(root.right)
     if left_height == -1 or right_height == -1 or abs(left_height - right_height) > 1:
         return -1
     else:
