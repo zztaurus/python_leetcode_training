@@ -5,7 +5,6 @@ def sumOfLeftLeaves1(self, root):
     """
     DFS
 
-
     当且仅当左子节点是叶子节点时，
 
     """
@@ -23,10 +22,6 @@ def sumOfLeftLeaves1(self, root):
         return ans
 
     return dfs(root) if root else 0
-
-
-
-
 
 
 
