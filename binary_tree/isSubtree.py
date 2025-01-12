@@ -10,15 +10,14 @@
 
 """
 
-class Solution(object):
+class Solution1(object):
 
-    def isSubtree(self, root, subRoot):
+    def isSubtree1(self, root, subRoot):
         """
         :type root: Optional[TreeNode]
         :type subRoot: Optional[TreeNode]
         :rtype: bool
         """
-
         if not root and not subRoot:
             return True
         if not root or not subRoot:
@@ -26,11 +25,39 @@ class Solution(object):
         # 判断 subTree 是否是当前树的子树
         return self.isSameTree(root, subRoot) or self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
 
-
     def isSameTree(self, s, l):
-
         if not s and not l:
             return True
         if not s or not l:
             return False
         return s.val == l.val and self.isSameTree(s.left, l.left) and self.isSameTree(s.right, l.right)
+
+
+
+"""
+
+解法二:
+
+    深度优先搜索遍历两棵树 S 和 T， 判断T的搜索序列是否是S的搜索序列的子串。
+
+"""
+
+
+class Solution2(object):
+
+    def isSubtree2(self, root, subRoot):
+        """
+        :type root: Optional[TreeNode]
+        :type subRoot: Optional[TreeNode]
+        :rtype: bool
+        """
+        pass
+
+    def dfs(self, node):
+        pass
+         
+
+
+    def kmp(self, m, n):
+        pass
+
