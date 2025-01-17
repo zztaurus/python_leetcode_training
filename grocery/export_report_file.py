@@ -2,7 +2,7 @@
 import time
 import requests
 
-reportId="572a13f3-6c1a-4270-9ecc-06860d004953"
+reportId="1c5f078e-6399-4278-b990-0d3c75450d9a"
 table_name='campaign_daily_report'
 field_name='platform'
 value='android'
