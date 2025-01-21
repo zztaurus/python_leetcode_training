@@ -5,9 +5,10 @@ table_name = 'campaign_daily_report'
 field_name = 'platform'
 value = 'android'
 app_name = 'Genius_G'
-reportId = "572a13f3-6c1a-4270-9ecc-06860d004953"
-exportId = "Mi9CbG9iSWRWMi03Mjc4ZjcxNC04MTgwLTQ0NjAtODE2YS04ZDAwMTY2ZjEzM2ZsY1YzZTFEV0pHTUE4MEZ6NlFQNTJ5QzZqU00ySEx5S3NxUzRjdDFvSkVnPS4="
+reportId = "6ba19260-1539-405e-adc3-28653068176d"
+exportId = "Mi9CbG9iSWRWMi03ZDVlMDM1Ny1mODg3LTQwZDctYWUxOC1iOGJmNzA5MzhiYWNwWkJJRWJtdkdpdFE3SWVDNVFnSjZBWlU3NGNZMlM4WDV5bFRVRzk0LXZzPS4="
 
+Authorization = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyIsImtpZCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvYWE1ODIyZjUtODk4ZS00MzEwLTkyYmItNTY0ODg1MGJhMGUyLyIsImlhdCI6MTczNzQ0NDA5NCwibmJmIjoxNzM3NDQ0MDk0LCJleHAiOjE3Mzc0NDkzMjYsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiJBVlFBcS84WkFBQUE3UGlvMEdFdnRHZTBTc3ZKTStWeWNJTGRWRG5aZTQrUm5BdWw5ZXBWR3lOUDExQUhSSzdBWDE5RmlCTkpFeXlhc2w4endqOS9SR0xncGpJSk43cjJFaWh0R0dHb0J0Q3JCK3MxS0lUc1ZsYz0iLCJhbXIiOlsicHdkIiwibWZhIl0sImFwcGlkIjoiMThmYmNhMTYtMjIyNC00NWY2LTg1YjAtZjdiZjJiMzliM2YzIiwiYXBwaWRhY3IiOiIwIiwiZmFtaWx5X25hbWUiOiJaaG91IiwiZ2l2ZW5fbmFtZSI6Ik5pbmciLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIxMDMuMTAwLjY0LjEyMiIsIm5hbWUiOiJOaW5nIFpob3UiLCJvaWQiOiJhZjZlNWNlMi1mNGE5LTQ3YTUtYjkwNS00OWFkYWUwYzc5Y2YiLCJwdWlkIjoiMTAwMzIwMDA3QzJBNzA2OSIsInJoIjoiMS5BVWtBOVNKWXFvNkpFRU9TdTFaSWhRdWc0Z2tBQUFBQUFBQUF3QUFBQUFBQUFBQW9BWE5KQUEuIiwic2NwIjoiQXBwLlJlYWQuQWxsIENhcGFjaXR5LlJlYWQuQWxsIENhcGFjaXR5LlJlYWRXcml0ZS5BbGwgQ29ubmVjdGlvbi5SZWFkLkFsbCBDb25uZWN0aW9uLlJlYWRXcml0ZS5BbGwgQ29udGVudC5DcmVhdGUgRGFzaGJvYXJkLlJlYWQuQWxsIERhc2hib2FyZC5SZWFkV3JpdGUuQWxsIERhdGFmbG93LlJlYWQuQWxsIERhdGFmbG93LlJlYWRXcml0ZS5BbGwgRGF0YXNldC5SZWFkLkFsbCBEYXRhc2V0LlJlYWRXcml0ZS5BbGwgR2F0ZXdheS5SZWFkLkFsbCBHYXRld2F5LlJlYWRXcml0ZS5BbGwgSXRlbS5FeGVjdXRlLkFsbCBJdGVtLkV4dGVybmFsRGF0YVNoYXJlLkFsbCBJdGVtLlJlYWRXcml0ZS5BbGwgSXRlbS5SZXNoYXJlLkFsbCBPbmVMYWtlLlJlYWQuQWxsIE9uZUxha2UuUmVhZFdyaXRlLkFsbCBQaXBlbGluZS5EZXBsb3kgUGlwZWxpbmUuUmVhZC5BbGwgUGlwZWxpbmUuUmVhZFdyaXRlLkFsbCBSZXBvcnQuUmVhZFdyaXRlLkFsbCBSZXBydC5SZWFkLkFsbCBTdG9yYWdlQWNjb3VudC5SZWFkLkFsbCBTdG9yYWdlQWNjb3VudC5SZWFkV3JpdGUuQWxsIFRlbmFudC5SZWFkLkFsbCBUZW5hbnQuUmVhZFdyaXRlLkFsbCBVc2VyU3RhdGUuUmVhZFdyaXRlLkFsbCBXb3Jrc3BhY2UuR2l0Q29tbWl0LkFsbCBXb3Jrc3BhY2UuR2l0VXBkYXRlLkFsbCBXb3Jrc3BhY2UuUmVhZC5BbGwgV29ya3NwYWNlLlJlYWRXcml0ZS5BbGwiLCJzaWQiOiJkNDQ0ZThhNy05ZDI4LTRhOGUtYjk3ZC1hZmY1ZjdmMWRlNjEiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiIxTEFxck1wUGpaaHlBOGc5WkNQRHpXSzV1dVN4TjVDRnVjYl9vanI4RVFzIiwidGlkIjoiYWE1ODIyZjUtODk4ZS00MzEwLTkyYmItNTY0ODg1MGJhMGUyIiwidW5pcXVlX25hbWUiOiJuaW5nLnpob3VAZXdwLWdyb3VwLmNvbSIsInVwbiI6Im5pbmcuemhvdUBld3AtZ3JvdXAuY29tIiwidXRpIjoiOVhEd1VwdW40a0tvVk9zTnlvLWZBQSIsInZlciI6IjEuMCIsIndpZHMiOlsiYjc5ZmJmNGQtM2VmOS00Njg5LTgxNDMtNzZiMTk0ZTg1NTA5Il0sInhtc19pZHJlbCI6IjEgMjQifQ.Yul8oKJlH3g20uTDO1jCnuXjCaW06wlsQe4a0zMn7RtX89ONwxMYIzn0M3jiNaR6SkLKGkAaWcRHIy1TV6882MwhfXaqoCVzbYokG4ef1DCnGTibs5KCJyrXP5sQrEK_cONX5cN7vIxwBNB9mKhpG46nYfZhATjf1uPo_vdrzkw3HZ_i1Dha9jAU_NMWCHqqeRHyPJzTU1XrZ1-HB5DfrevfmtlfPnkbNqnEHR5hb6rGJX7kBkoGQkhFzp_jxhOmwEs-s0axzsrRhv4dzNIp8n_MOVyhLT15M34LCeAgYX-rVP-Qs-hRQzLPVcHaCRSN9_SCzgwOZmXMqVsMRaz6wA"
 
 def main():
 
@@ -16,7 +17,7 @@ def main():
     url = f"https://api.powerbi.com/v1.0/myorg/reports/{reportId}/ExportTo"
     # 设置请求头，包括授权信息, filter信息
     headers = {
-        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6InoxcnNZSEhKOS04bWdndDRIc1p1OEJLa0JQdyIsImtpZCI6InoxcnNZSEhKOS04bWdndDRIc1p1OEJLa0JQdyJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvYWE1ODIyZjUtODk4ZS00MzEwLTkyYmItNTY0ODg1MGJhMGUyLyIsImlhdCI6MTczNzAxNDE5MCwibmJmIjoxNzM3MDE0MTkwLCJleHAiOjE3MzcwMTk1MjcsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiJBVlFBcS84WkFBQUFQeFc4ZkMrdHBFQkFuNkJmTXBjK0JleFFXZ242anRuZkpwOFZsYmVZQ2k2SGZmSDdvL3BUaTNwNHcyTzNsc3ZsNHpGaDRIZ2ZsMHdaY2Y5WnhzaE5hZkZwNVdFaGtUbk5ZUllQbXczWEIvTT0iLCJhbXIiOlsicHdkIiwibWZhIl0sImFwcGlkIjoiMThmYmNhMTYtMjIyNC00NWY2LTg1YjAtZjdiZjJiMzliM2YzIiwiYXBwaWRhY3IiOiIwIiwiZmFtaWx5X25hbWUiOiJaaG91IiwiZ2l2ZW5fbmFtZSI6Ik5pbmciLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIxMDMuMTAwLjY0LjEyMiIsIm5hbWUiOiJOaW5nIFpob3UiLCJvaWQiOiJhZjZlNWNlMi1mNGE5LTQ3YTUtYjkwNS00OWFkYWUwYzc5Y2YiLCJwdWlkIjoiMTAwMzIwMDA3QzJBNzA2OSIsInJoIjoiMS5BVWtBOVNKWXFvNkpFRU9TdTFaSWhRdWc0Z2tBQUFBQUFBQUF3QUFBQUFBQUFBQW9BWE5KQUEuIiwic2NwIjoiQXBwLlJlYWQuQWxsIENhcGFjaXR5LlJlYWQuQWxsIENhcGFjaXR5LlJlYWRXcml0ZS5BbGwgQ29ubmVjdGlvbi5SZWFkLkFsbCBDb25uZWN0aW9uLlJlYWRXcml0ZS5BbGwgQ29udGVudC5DcmVhdGUgRGFzaGJvYXJkLlJlYWQuQWxsIERhc2hib2FyZC5SZWFkV3JpdGUuQWxsIERhdGFmbG93LlJlYWQuQWxsIERhdGFmbG93LlJlYWRXcml0ZS5BbGwgRGF0YXNldC5SZWFkLkFsbCBEYXRhc2V0LlJlYWRXcml0ZS5BbGwgR2F0ZXdheS5SZWFkLkFsbCBHYXRld2F5LlJlYWRXcml0ZS5BbGwgSXRlbS5FeGVjdXRlLkFsbCBJdGVtLkV4dGVybmFsRGF0YVNoYXJlLkFsbCBJdGVtLlJlYWRXcml0ZS5BbGwgSXRlbS5SZXNoYXJlLkFsbCBPbmVMYWtlLlJlYWQuQWxsIE9uZUxha2UuUmVhZFdyaXRlLkFsbCBQaXBlbGluZS5EZXBsb3kgUGlwZWxpbmUuUmVhZC5BbGwgUGlwZWxpbmUuUmVhZFdyaXRlLkFsbCBSZXBvcnQuUmVhZFdyaXRlLkFsbCBSZXBydC5SZWFkLkFsbCBTdG9yYWdlQWNjb3VudC5SZWFkLkFsbCBTdG9yYWdlQWNjb3VudC5SZWFkV3JpdGUuQWxsIFRlbmFudC5SZWFkLkFsbCBUZW5hbnQuUmVhZFdyaXRlLkFsbCBVc2VyU3RhdGUuUmVhZFdyaXRlLkFsbCBXb3Jrc3BhY2UuR2l0Q29tbWl0LkFsbCBXb3Jrc3BhY2UuR2l0VXBkYXRlLkFsbCBXb3Jrc3BhY2UuUmVhZC5BbGwgV29ya3NwYWNlLlJlYWRXcml0ZS5BbGwiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiIxTEFxck1wUGpaaHlBOGc5WkNQRHpXSzV1dVN4TjVDRnVjYl9vanI4RVFzIiwidGlkIjoiYWE1ODIyZjUtODk4ZS00MzEwLTkyYmItNTY0ODg1MGJhMGUyIiwidW5pcXVlX25hbWUiOiJuaW5nLnpob3VAZXdwLWdyb3VwLmNvbSIsInVwbiI6Im5pbmcuemhvdUBld3AtZ3JvdXAuY29tIiwidXRpIjoicHhITHdxRnFOMEc5RDk5enNZdEdBQSIsInZlciI6IjEuMCIsIndpZHMiOlsiYjc5ZmJmNGQtM2VmOS00Njg5LTgxNDMtNzZiMTk0ZTg1NTA5Il0sInhtc19pZHJlbCI6IjEgNCJ9.bg9g6Jjk_brg3LyeGI5wYmeGh7P0qcrOi976QYj2x0-mMmM8qOwHyFM7Be6VLhlsV6qTxiAMVWCH5CE26k856Lt2UvOU_grbeZRvc9gPxgfvhK5ZIYIfElRGR1_x3-8RfoW9a3hSM4Wmw9tIxm5OYDL7YL9YR8T2SWHRu03hhwJ5ZgTFYFTFFodVhmNkmMDUi4zj2I43nwVgtXAGtGJqnz1labKuRXtOFwtuxE0agvuhCSx0ndg7qqecDE1yEeJT9_0AdYtvav7c-jpG4wYYzsqa2DcAkLy2A91s14NjuCmg6hEltU5puBza63ehmFh92hwvVjFhxxs_LfIGUezzVg"
+        "Authorization": Authorization
     }
     body = {
         "format": "PDF",
@@ -53,7 +54,7 @@ def main():
 
 def get_status():
     headers = {
-        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6InoxcnNZSEhKOS04bWdndDRIc1p1OEJLa0JQdyIsImtpZCI6InoxcnNZSEhKOS04bWdndDRIc1p1OEJLa0JQdyJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvYWE1ODIyZjUtODk4ZS00MzEwLTkyYmItNTY0ODg1MGJhMGUyLyIsImlhdCI6MTczNzAxOTM3NSwibmJmIjoxNzM3MDE5Mzc1LCJleHAiOjE3MzcwMjQyMzMsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiJBVlFBcS84WkFBQUE3YjhlZVRHbE9OREhKNFpxclA2QUJyNzBDQzBNTmVUZlk3TUtpdGdjNnhmclcvVXo2NXQwR0gxNWdBcmZMUWhGQlpHcnY4SElRWVNoaVA4M1ZXSXNjZDN6NW5qZklxTXB4SUpuUXRkVER5Zz0iLCJhbXIiOlsicHdkIiwibWZhIl0sImFwcGlkIjoiMThmYmNhMTYtMjIyNC00NWY2LTg1YjAtZjdiZjJiMzliM2YzIiwiYXBwaWRhY3IiOiIwIiwiZmFtaWx5X25hbWUiOiJaaG91IiwiZ2l2ZW5fbmFtZSI6Ik5pbmciLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIxMDMuMTAwLjY0LjEyMiIsIm5hbWUiOiJOaW5nIFpob3UiLCJvaWQiOiJhZjZlNWNlMi1mNGE5LTQ3YTUtYjkwNS00OWFkYWUwYzc5Y2YiLCJwdWlkIjoiMTAwMzIwMDA3QzJBNzA2OSIsInJoIjoiMS5BVWtBOVNKWXFvNkpFRU9TdTFaSWhRdWc0Z2tBQUFBQUFBQUF3QUFBQUFBQUFBQW9BWE5KQUEuIiwic2NwIjoiQXBwLlJlYWQuQWxsIENhcGFjaXR5LlJlYWQuQWxsIENhcGFjaXR5LlJlYWRXcml0ZS5BbGwgQ29ubmVjdGlvbi5SZWFkLkFsbCBDb25uZWN0aW9uLlJlYWRXcml0ZS5BbGwgQ29udGVudC5DcmVhdGUgRGFzaGJvYXJkLlJlYWQuQWxsIERhc2hib2FyZC5SZWFkV3JpdGUuQWxsIERhdGFmbG93LlJlYWQuQWxsIERhdGFmbG93LlJlYWRXcml0ZS5BbGwgRGF0YXNldC5SZWFkLkFsbCBEYXRhc2V0LlJlYWRXcml0ZS5BbGwgR2F0ZXdheS5SZWFkLkFsbCBHYXRld2F5LlJlYWRXcml0ZS5BbGwgSXRlbS5FeGVjdXRlLkFsbCBJdGVtLkV4dGVybmFsRGF0YVNoYXJlLkFsbCBJdGVtLlJlYWRXcml0ZS5BbGwgSXRlbS5SZXNoYXJlLkFsbCBPbmVMYWtlLlJlYWQuQWxsIE9uZUxha2UuUmVhZFdyaXRlLkFsbCBQaXBlbGluZS5EZXBsb3kgUGlwZWxpbmUuUmVhZC5BbGwgUGlwZWxpbmUuUmVhZFdyaXRlLkFsbCBSZXBvcnQuUmVhZFdyaXRlLkFsbCBSZXBydC5SZWFkLkFsbCBTdG9yYWdlQWNjb3VudC5SZWFkLkFsbCBTdG9yYWdlQWNjb3VudC5SZWFkV3JpdGUuQWxsIFRlbmFudC5SZWFkLkFsbCBUZW5hbnQuUmVhZFdyaXRlLkFsbCBVc2VyU3RhdGUuUmVhZFdyaXRlLkFsbCBXb3Jrc3BhY2UuR2l0Q29tbWl0LkFsbCBXb3Jrc3BhY2UuR2l0VXBkYXRlLkFsbCBXb3Jrc3BhY2UuUmVhZC5BbGwgV29ya3NwYWNlLlJlYWRXcml0ZS5BbGwiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiIxTEFxck1wUGpaaHlBOGc5WkNQRHpXSzV1dVN4TjVDRnVjYl9vanI4RVFzIiwidGlkIjoiYWE1ODIyZjUtODk4ZS00MzEwLTkyYmItNTY0ODg1MGJhMGUyIiwidW5pcXVlX25hbWUiOiJuaW5nLnpob3VAZXdwLWdyb3VwLmNvbSIsInVwbiI6Im5pbmcuemhvdUBld3AtZ3JvdXAuY29tIiwidXRpIjoiR2ZSR1VPUFVXVVdSVkc5X1hYdGFBQSIsInZlciI6IjEuMCIsIndpZHMiOlsiYjc5ZmJmNGQtM2VmOS00Njg5LTgxNDMtNzZiMTk0ZTg1NTA5Il0sInhtc19pZHJlbCI6IjEgMTQifQ.j6CY0Qu4ftw_eaeJBXAua4NFVqCuInG38_q1FP_DUsj2IKkW6NuknJAStuAHQTgOM31khzEktTNLBcAHt2W4mw9oRDmeflknAilF6mHaPGFvr5_sfSoTbQX42bJ59iYHIHgBTcOKesl12159EdACy-KdLhMGLJCzMWV9DQKJ5IqHtqMoib5-oSTXVx0dvcMmqVRLCV6zFoKaWqrdqBC58tvLTBXKCDER85duRXH3Ghp5UdYS3L_1lvD0weYqE-pOcOfyE6-Z3RPtF5VaSPOd4l3sAAA0Wr3AMcL9qauLRb2mzm3h4subBq4jW3T4NFfIOAAS6z5C_G60pGEWXJW6nA"
+        "Authorization": Authorization
     }
     url = f"https://api.powerbi.com/v1.0/myorg/reports/{reportId}/exports/{exportId}"
     response = requests.get(url, headers=headers)
@@ -61,7 +62,7 @@ def get_status():
 
 def exportToFile():
     headers = {
-        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6InoxcnNZSEhKOS04bWdndDRIc1p1OEJLa0JQdyIsImtpZCI6InoxcnNZSEhKOS04bWdndDRIc1p1OEJLa0JQdyJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvYWE1ODIyZjUtODk4ZS00MzEwLTkyYmItNTY0ODg1MGJhMGUyLyIsImlhdCI6MTczNzAxNDE5MCwibmJmIjoxNzM3MDE0MTkwLCJleHAiOjE3MzcwMTk1MjcsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiJBVlFBcS84WkFBQUFQeFc4ZkMrdHBFQkFuNkJmTXBjK0JleFFXZ242anRuZkpwOFZsYmVZQ2k2SGZmSDdvL3BUaTNwNHcyTzNsc3ZsNHpGaDRIZ2ZsMHdaY2Y5WnhzaE5hZkZwNVdFaGtUbk5ZUllQbXczWEIvTT0iLCJhbXIiOlsicHdkIiwibWZhIl0sImFwcGlkIjoiMThmYmNhMTYtMjIyNC00NWY2LTg1YjAtZjdiZjJiMzliM2YzIiwiYXBwaWRhY3IiOiIwIiwiZmFtaWx5X25hbWUiOiJaaG91IiwiZ2l2ZW5fbmFtZSI6Ik5pbmciLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIxMDMuMTAwLjY0LjEyMiIsIm5hbWUiOiJOaW5nIFpob3UiLCJvaWQiOiJhZjZlNWNlMi1mNGE5LTQ3YTUtYjkwNS00OWFkYWUwYzc5Y2YiLCJwdWlkIjoiMTAwMzIwMDA3QzJBNzA2OSIsInJoIjoiMS5BVWtBOVNKWXFvNkpFRU9TdTFaSWhRdWc0Z2tBQUFBQUFBQUF3QUFBQUFBQUFBQW9BWE5KQUEuIiwic2NwIjoiQXBwLlJlYWQuQWxsIENhcGFjaXR5LlJlYWQuQWxsIENhcGFjaXR5LlJlYWRXcml0ZS5BbGwgQ29ubmVjdGlvbi5SZWFkLkFsbCBDb25uZWN0aW9uLlJlYWRXcml0ZS5BbGwgQ29udGVudC5DcmVhdGUgRGFzaGJvYXJkLlJlYWQuQWxsIERhc2hib2FyZC5SZWFkV3JpdGUuQWxsIERhdGFmbG93LlJlYWQuQWxsIERhdGFmbG93LlJlYWRXcml0ZS5BbGwgRGF0YXNldC5SZWFkLkFsbCBEYXRhc2V0LlJlYWRXcml0ZS5BbGwgR2F0ZXdheS5SZWFkLkFsbCBHYXRld2F5LlJlYWRXcml0ZS5BbGwgSXRlbS5FeGVjdXRlLkFsbCBJdGVtLkV4dGVybmFsRGF0YVNoYXJlLkFsbCBJdGVtLlJlYWRXcml0ZS5BbGwgSXRlbS5SZXNoYXJlLkFsbCBPbmVMYWtlLlJlYWQuQWxsIE9uZUxha2UuUmVhZFdyaXRlLkFsbCBQaXBlbGluZS5EZXBsb3kgUGlwZWxpbmUuUmVhZC5BbGwgUGlwZWxpbmUuUmVhZFdyaXRlLkFsbCBSZXBvcnQuUmVhZFdyaXRlLkFsbCBSZXBydC5SZWFkLkFsbCBTdG9yYWdlQWNjb3VudC5SZWFkLkFsbCBTdG9yYWdlQWNjb3VudC5SZWFkV3JpdGUuQWxsIFRlbmFudC5SZWFkLkFsbCBUZW5hbnQuUmVhZFdyaXRlLkFsbCBVc2VyU3RhdGUuUmVhZFdyaXRlLkFsbCBXb3Jrc3BhY2UuR2l0Q29tbWl0LkFsbCBXb3Jrc3BhY2UuR2l0VXBkYXRlLkFsbCBXb3Jrc3BhY2UuUmVhZC5BbGwgV29ya3NwYWNlLlJlYWRXcml0ZS5BbGwiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiIxTEFxck1wUGpaaHlBOGc5WkNQRHpXSzV1dVN4TjVDRnVjYl9vanI4RVFzIiwidGlkIjoiYWE1ODIyZjUtODk4ZS00MzEwLTkyYmItNTY0ODg1MGJhMGUyIiwidW5pcXVlX25hbWUiOiJuaW5nLnpob3VAZXdwLWdyb3VwLmNvbSIsInVwbiI6Im5pbmcuemhvdUBld3AtZ3JvdXAuY29tIiwidXRpIjoicHhITHdxRnFOMEc5RDk5enNZdEdBQSIsInZlciI6IjEuMCIsIndpZHMiOlsiYjc5ZmJmNGQtM2VmOS00Njg5LTgxNDMtNzZiMTk0ZTg1NTA5Il0sInhtc19pZHJlbCI6IjEgNCJ9.bg9g6Jjk_brg3LyeGI5wYmeGh7P0qcrOi976QYj2x0-mMmM8qOwHyFM7Be6VLhlsV6qTxiAMVWCH5CE26k856Lt2UvOU_grbeZRvc9gPxgfvhK5ZIYIfElRGR1_x3-8RfoW9a3hSM4Wmw9tIxm5OYDL7YL9YR8T2SWHRu03hhwJ5ZgTFYFTFFodVhmNkmMDUi4zj2I43nwVgtXAGtGJqnz1labKuRXtOFwtuxE0agvuhCSx0ndg7qqecDE1yEeJT9_0AdYtvav7c-jpG4wYYzsqa2DcAkLy2A91s14NjuCmg6hEltU5puBza63ehmFh92hwvVjFhxxs_LfIGUezzVg"
+        "Authorization": Authorization
     }
     url = f"https://api.powerbi.com/v1.0/myorg/reports/{reportId}/exports/{exportId}/file"
     response = requests.get(url, headers=headers)
@@ -90,5 +91,111 @@ def exportToFile():
 
 if __name__ == '__main__':
     # main()
-    get_status()
-    # exportToFile()
+    # get_status()
+    exportToFile()
+
+blks = [
+    {
+        "type": "divider",
+        "block_id": "ctdHw"
+    },
+    {
+        "type": "section",
+        "block_id": "HOxjG",
+        "text": {
+            "type": "mrkdwn",
+            "text": "*:two: 在游戏剧情类素材中，背景过于空旷可能导致什么问题？*\nA. 增强画面的故事性\nB. 使画面内容显得分散\nC. 提升玩家的代入感\nD. 增加画面的细节感",
+            "verbatim": False
+        }
+    },
+    {
+        "type": "section",
+        "block_id": "xujY9",
+        "text": {
+            "type": "mrkdwn",
+            "text": ":x:，答案： *B* \n*认知：* <https://ihandy-debug-08.infastgear.com/insight/list/detail/236977649249?page=1|【认知】背景不要太空，会显得画面内容很散>",
+            "verbatim": False
+        }
+    },
+    {
+        "type": "section",
+        "block_id": "baIcW",
+        "text": {
+            "type": "mrkdwn",
+            "text": ":please: *答完请随手给每道题来个“速评”*",
+            "verbatim": False
+        }
+    },
+    {
+        "type": "actions",
+        "block_id": "n8Zzc",
+        "elements": [
+            {
+                "type": "button",
+                "action_id": "question_answer_feedback_action.insight_1",
+                "text": {
+                    "type": "plain_text",
+                    "text": ":+1:题目超赞！",
+                    "emoji": True
+                },
+                "value": "{\"session_id\": \"589455451730\", \"feedback_id\": \"566780871264\", \"feedback_type\": \"insight\", \"feedback_value\": \"题目超赞\"}"
+            },
+            {
+                "type": "button",
+                "action_id": "question_answer_feedback_action.insight_2",
+                "text": {
+                    "type": "plain_text",
+                    "text": ":+1:题目还行",
+                    "emoji": True
+                },
+                "value": "{\"session_id\": \"589455451730\", \"feedback_id\": \"566780871264\", \"feedback_type\": \"insight\", \"feedback_value\": \"题目还行\"}"
+            },
+            {
+                "type": "button",
+                "action_id": "question_answer_feedback_action.insight_3",
+                "text": {
+                    "type": "plain_text",
+                    "text": ":-1:题目待改进",
+                    "emoji": True
+                },
+                "value": "{\"session_id\": \"589455451730\", \"feedback_id\": \"566780871264\", \"feedback_type\": \"insight\", \"feedback_value\": \"题目待改进\"}"
+            }
+        ]
+    },
+    {
+        "type": "actions",
+        "block_id": "gq6D+",
+        "elements": [
+            {
+                "type": "button",
+                "action_id": "question_answer_feedback_action.confidence_1",
+                "text": {
+                    "type": "plain_text",
+                    "text": ":+1:认知超赞！",
+                    "emoji": True
+                },
+                "value": "{\"session_id\": \"589455451730\", \"feedback_id\": \"566780871264\", \"feedback_type\": \"confidence\", \"feedback_value\": \"认知超赞！\"}"
+            },
+            {
+                "type": "button",
+                "action_id": "question_answer_feedback_action.confidence_2",
+                "text": {
+                    "type": "plain_text",
+                    "text": ":+1:认知还行",
+                    "emoji": True
+                },
+                "value": "{\"session_id\": \"589455451730\", \"feedback_id\": \"566780871264\", \"feedback_type\": \"confidence\", \"feedback_value\": \"认知还行\"}"
+            },
+            {
+                "type": "button",
+                "action_id": "question_answer_feedback_action.confidence_3",
+                "text": {
+                    "type": "plain_text",
+                    "text": ":-1:认知待改进",
+                    "emoji": True
+                },
+                "value": "{\"session_id\": \"589455451730\", \"feedback_id\": \"566780871264\", \"feedback_type\": \"confidence\", \"feedback_value\": \"认知待改进\"}"
+            }
+        ]
+    }
+]

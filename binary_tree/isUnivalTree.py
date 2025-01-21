@@ -2,7 +2,6 @@
 # Definition for a binary tree node
 
 # 965. 单值二叉树
-
 # 深度优先搜索
 
 class TreeNode:
@@ -25,7 +24,6 @@ class Solution:
             return False
 
         return True
-
 
 # 广度优先搜索
 
