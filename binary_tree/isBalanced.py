@@ -52,7 +52,7 @@ def isBalanced2(self, root):
     如果一棵子树是平衡的，则返回其高度（高度一定是非负整数），否则返回 −1。如果存在一棵子树不平衡，则整个二叉树一定不平衡。
 
     """
-    return height2(root) >= 0;
+    return height2(root) >= 0
 
 
 def height2(root):
@@ -62,10 +62,10 @@ def height2(root):
 
     left_height = height2(root.left)
     right_height = height2(root.right)
-    if left_height == -1 or right_height == -1 or abs(left_height - right_height) > 1:
+    if left_height == -1 or right_height == -1 or abs(left_height - right_height) > 1: # 如果以当前节点根节点的子树不是平衡二叉树，则返回 -1。
         return -1
     else:
-        return max(left_height, right_height) + 1
+        return max(left_height, right_height) + 1 # 如果以当前节点为根节点的数是平衡二叉树，则返回树的高度
 
 
 
