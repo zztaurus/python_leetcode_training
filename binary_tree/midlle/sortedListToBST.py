@@ -1,5 +1,5 @@
 
-# 
+#
 
 class ListNode:
 
@@ -36,4 +36,29 @@ class Solution:
         root.left = self.build(array, left, mid - 1)
         root.right = self.build(array, mid + 1, right)
         return root
+
+class Solution2:
+
+    def sortedListToBST(self, head):
+
+        # 通过找到链表的中间节点来构造二叉树
+
+        return self.build(head, None)
+
+    def build(self, begin, end):
+        if begin == end:
+            # 因为是左闭右开区间，所以现在已经成空集了
+            return None
+        mid = self.getMid(begin, end)
+        root = TreeNode(mid.val)
+        root.left = self.build(begin, mid)
+        root.right = self.build(mid.next, end)
+        return root
+
+    def getMid(self, begin, end):
+        slow, fast = begin, begin
+        while fast != end and fast.next != end:
+            slow = slow.next
+            fast = fast.next.next
+        return slow
 
