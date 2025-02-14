@@ -12,7 +12,7 @@ class Solution(object):
         """
         遍历思维
 
-        基于深度优先搜索, 使用回溯法，寻找所有路径.
+        基于深度优先搜索, 使用回溯法，寻找所有路径
         """
 
         def dfs(node, current_path, current_sum):
@@ -41,6 +41,7 @@ class Solution(object):
 
 
 class Solution2(object):
+
     def pathSum(self, root, targetSum):
         """
         分解思维:
