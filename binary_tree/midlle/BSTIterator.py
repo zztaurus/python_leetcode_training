@@ -45,8 +45,26 @@ class BSTIterator(object):
 
 
 
-# Your BSTIterator object will be instantiated and called as such:
-# obj = BSTIterator(root)
-# param_1 = obj.next()
-# param_2 = obj.hasNext()
+class BSTIterator2(object):
 
+    # 遍历二叉树然后存储二叉树的中序遍历结果
+    
+    def __init__(self, root):
+        self.idx = 0
+        self.arr = []
+        self._inorder_traversal(root)
+
+    def _inorder_traversal(self, root):
+        if root is None:
+            return
+        self._inorder_traversal(root.left)
+        self.arr.append(root.val)
+        self._inorder_traversal(root.right)
+
+    def next(self):
+        result = self.arr[self.idx]
+        self.idx += 1
+        return result
+
+    def hasNext(self):
+        return self.idx < len(self.arr)
