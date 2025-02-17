@@ -29,6 +29,29 @@ class Solution(object):
         self.traverse(root.right, k)
 
 
+class Solution2(object):
+
+    def kthSmallest(self, root, k):
+
+        stack = [root]
+        count = 0
+        current = root
+        while stack or current:
+
+            while current:
+                stack.append(current)
+                current = current.left
+
+            current = stack.pop()
+            count = count + 1
+            if count == k:
+                return current.val
+            current = current.right
+
+        return -1
+
+
+
 
 
 
