@@ -24,7 +24,6 @@ class Solution(object):
         3、一旦发现 p 和 q 在当前节点的两侧，说明当前节点就是 LCA。
 
         """
-
         if not root:
             return None
         if p.val > q.val:
