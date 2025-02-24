@@ -9,19 +9,7 @@ def sumOfLeftLeaves1(self, root):
 
     """
 
-    isLeafNode = lambda node: not node.left and not node.right
-
-    def dfs(node): # 计算以 root 节点为根节点的二叉树的左叶子和
-        ans = 0
-        # 左子树
-        if node.left:
-            ans += node.left.val if isLeafNode(node.left) else dfs(node.left)
-        if node.right and not isLeafNode(node.right):
-            ans += dfs(node.right)
-
-        return ans
-
-    return dfs(root) if root else 0
+    pass
 
 
 
