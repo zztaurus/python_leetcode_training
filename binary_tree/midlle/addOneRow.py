@@ -24,7 +24,7 @@ class Solution(object):
             return newNode
 
         def dfs(node, d):
-            if root is None:
+            if node is None:
                 return
             if depth == d - 1:
                 old_left = node.left
@@ -32,14 +32,9 @@ class Solution(object):
                 node.left = TreeNode(val, old_left, None)
                 node.right = TreeNode(val, None, old_right)
             else:
-                dfs(node.left, depth + 1)
-                dfs(node.right, depth + 1)
+                dfs(node.left, d + 1)
+                dfs(node.right, d + 1)
 
 
         dfs(root, 1)
-
-
-
-
-
-
+        return root
