@@ -23,14 +23,26 @@ def get_embed_token(access_token, report_id, group_id):
         "Authorization": f"Bearer {access_token}",
         "Content-Type": "application/json"
     }
-    data = {
-        "accessLevel": "View"  # 或者 "Edit" 根据需要
-    }
+    # data = {
+    #     "accessLevel": "View"  # 或者 "Edit" 根据需要
+    # }
 
-    response = requests.post(url, headers=headers, json=data)
+    response = requests.post(url, headers=headers)
     response.raise_for_status()
     return response.json().get("token")
 
+def generate_token(report_id):
+    url = f"https://api.powerbi.com/v1.0/myorg/reports/{report_id}/GenerateToken"
+    headers = {
+        "Authorization": f"Bearer {access_token}",
+        "Content-Type": "application/json"
+    }
+    data = {
+        "accessLevel": "View"  # 或者 "Edit" 根据需要
+    }
+    response = requests.post(url, headers=headers, json=data)
+    response.raise_for_status()
+    return response.json().get("token")
 
 
 def job1(token):
@@ -58,19 +70,18 @@ def job1(token):
 
 if __name__ == "__main__":
     # 获取 access_token
-    tenant_id = "your_tenant_id"
-    client_id = "your_client_id"
-    client_secret = "your_client_secret"
-    token = get_access_token(tenant_id, client_id, client_secret)
-    print(token)
-    get_access_token()
+    tenant_id = "aa5822f5-898e-4310-92bb-5648850ba0e2"
+    client_id = "a367d484-d042-433a-acee-cf3f577eded2"
+    client_secret = "BXwR.LtAjImWm72nFWx3_~qYpfikg~-R7c"
+    access_token = get_access_token(tenant_id, client_id, client_secret)
+    print(access_token)
 
     # 获取 embed_token
-    access_token = "your_access_token"
-    report_id = "your_report_id"
-    group_id = "your_group_id"
-    embed_token = get_embed_token(access_token, report_id, group_id)
-    print(embed_token)
+
+    # report_id = "b6f10816-0bb8-48ef-a204-705a9ab4ae50"
+    # group_id = "a97b1994-25c6-4e95-829b-a830c991fa74"
+    # embed_token = get_embed_token(access_token, report_id, group_id)
+    # print(embed_token)
 
 
 
